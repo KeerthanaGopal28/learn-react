@@ -1,6 +1,10 @@
 import pads from "./pads"
+import React from "react"
 
 export default function App() {
+    const [stateValue,setState] = React.useState(pads)
+    const buttons = stateValue.map((button)=>
+        <button>button</button>)
     /**
      * Challenge part 1:
      * 1. Initialize state with the default value of the
