@@ -3,7 +3,7 @@ import padsData from "./pads"
 
 export default function App() {
     const [pads, setPads] = React.useState(padsData)
-    
+    const Mode = darkMode?document.getElementById("").backgroundColor("#222222)
     /**
      * Challenge: use a ternary to determine the backgroundColor
      * of the buttons
