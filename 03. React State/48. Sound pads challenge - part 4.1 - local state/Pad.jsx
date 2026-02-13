@@ -11,12 +11,13 @@ export default function Pad(props) {
  */
     const [state,stateFunction] = React.useState(props.on)
     function clickable(){
-        const
+        stateFuncion(prevState=>!prestate)
 
     return (
         <button 
             style={{backgroundColor: props.color}}
-            className={props.on ? "on" : undefined}
+            className={on ? "on":undefined}
+            onClick={clickable}
         ></button>
     )
 }
