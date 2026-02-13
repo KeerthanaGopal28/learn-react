@@ -9,6 +9,9 @@ export default function Pad(props) {
  * 
  * Goal: clicking each pad should toggle it on and off.
  */
+    const [state,stateFunction] = React.useState(props.on)
+    function clickable(){
+        const
 
     return (
         <button 
